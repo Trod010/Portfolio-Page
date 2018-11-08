@@ -54,10 +54,6 @@ html, body {
     color: hsl(0, 0, 95%);
 }
 
-.t--dark .t-menu {
-    background-color: hsl(200, 50%, 30%);
-}
-
 .t--dark .t-menu__item {
     background-color: hsl(0, 0%, 15%);
     color: hsl(0, 0%, 95%);
@@ -104,10 +100,6 @@ ul {
     background-color: #303030;
 }
 
-li {
-    
-}
-
 li a {
     float: left;
     display: block;
@@ -149,24 +141,80 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     border: 1px black solid;
     border-radius: 7%;
 }
 
 .image2 {
-    float: left;
-    width: 60%;
+    display: inline;
+    align-content: center;
     border: 1px black solid;
     border-radius: 7%;
-    margin: 15px 75px;
+    margin: 10px 20px;
+    vertical-align: middle;
 }
+
+
+
+/* /Images */
+
+/*      Form         */
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: #303030;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+
+}
+
+.contactMe {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6x;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*      /Form         */
 
 /* Footer */
 
 footer {
     position: fixed;
-    top: 95%;
+    top: 96%;
     left: 0%;
     width: 100%;
 }
@@ -178,36 +226,7 @@ footer ul {
     margin: auto;
     list-style: none;
 }
-
-/*    FLexBox    */
-
-.container,
-.item{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    flex-direction: column;
-    flex-grow: 1;
-    height: 23px;
-}
-
-.textzone {
-    flex-grow: 2;
-    height: 150px;
-    width: 250px;
-}
-
-.site {
-    display: flex;
-    flex-direction: row;
-}
-
-.site-content {
-    flex: 1;
-}
-/*  /Flexbox    */
+/*     /Footer  */
 
 /* Footer Icons */
 
@@ -242,7 +261,9 @@ footer ul {
     }
     
     .image2 {
-        width: 33%;
+        width: 20%;
+        margin: 0 20px;
+        display: block;
     }
 }
 
@@ -261,8 +282,9 @@ footer ul {
     }
     
     .image2 {
-        width: 33%;
-        margin: auto;
+        width: 30%;
+        margin: 0 20px;
+        display: block;
     }
 }
 
@@ -282,7 +304,8 @@ footer ul {
     }
     
     .image2 {
-        width: 20%;
-        margin: auto;    
+        width: 27%;
+        margin: 0 20px;  
+        display: block;  
     }
 }
