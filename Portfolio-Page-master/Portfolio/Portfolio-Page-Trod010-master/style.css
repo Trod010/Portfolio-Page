@@ -40,7 +40,7 @@ html, body {
     background-color: hsl(200, 50%, 60%);
 }
 
-.t-light .t-menu__item {
+.t-light .t-item {
     background-color: hsl(0, 0%, 85%);
     color: hsl(0, 0%, 5%);
 }
@@ -54,16 +54,16 @@ html, body {
     color: hsl(0, 0, 95%);
 }
 
-.t--dark .t-menu__item {
+.t--dark .t-item {
     background-color: hsl(0, 0%, 15%);
     color: hsl(0, 0%, 95%);
 }
 
 /*  /Dark Theme  */
 
-/*  component layer     */
+/*  Color Transition     */
 
-.o-menu__item {
+.t-button {
     height: 25px;
     width: 100px;
     
@@ -71,7 +71,7 @@ html, body {
     transition-property: all;
 }
 
-.c-container {
+.t-container {
     height: 100%;
     width: 100%;
     
@@ -79,16 +79,7 @@ html, body {
     transition-property: all;
 }
 
-.c-menu {
-    width: calc(100%, -25px);
-    height: 40px;
-    padding-left: 25px;
-    
-    transition-duration: .3s;
-    transition-property: all;
-}
-
-/*  /component layer    */
+/*  /Color Transition    */
 
 /* Navbar */
 
