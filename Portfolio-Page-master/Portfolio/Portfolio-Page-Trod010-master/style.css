@@ -30,16 +30,12 @@ html, body {
 }
 
 /*  Light Theme  */
-
+/* Specifically for full page background */
 .t--light {
     background-color: hsl(0, 0%,    99.99%);
     color: hsl(0, 0%, 5%);
 }
-
-.t--light .t-menu {
-    background-color: hsl(200, 50%, 60%);
-}
-
+/* Specifically for background of elements */
 .t-light .t-item {
     background-color: hsl(0, 0%, 85%);
     color: hsl(0, 0%, 5%);
