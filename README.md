@@ -4,6 +4,6 @@
  
  This project does not need anything special to run other than a text editor. I used brackets to set it up and used Visual Studio Code for other segments as I was adding to the website. 
  
-# Ps
+ Ps
  I did commit more than a few things to the master portion. The most recent upload is what needs to be downloaded, as it is temporarily the final edit for the project. 
 
